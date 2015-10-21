@@ -13,6 +13,7 @@ Working Directory: "C:/Users/tiani_000/Desktop/courserarpogramming/Coursera-Gett
 
 run_analysis.R
 The run_analysis.R script performs the following steps to clean the data and writes in our desire files:
+
 1.	Merges the training and test sets to create one data set, namely train/X_train.txt with test/X_test.txt, the result of which is a 10299x561 data frame, as in the original description ("Number of Instances: 10299" and "Number of Attributes: 561"), train/subject_train.txt with test/subject_test.txt, the result of which is a 10299x1 data frame with subject IDs, and train/y_train.txt with test/y_test.txt, the result of which is also a 10299x1 data frame with activity IDs.
 
 2.	Read X_train.txt, y_train.txt and subject_train.txt from the "./data/train" folder and Read X_test.txt, y_test.txt and subject_test.txt from the "./data/test" folder and store them in trainDt, testDt variables respectively.
