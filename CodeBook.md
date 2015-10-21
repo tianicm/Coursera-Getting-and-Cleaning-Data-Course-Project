@@ -33,8 +33,5 @@ The run_analysis.R script performs the following steps to clean the data and wri
 
 10.	The final part generates a second independent tidy data set with the average of each measurement for each activity and each subject. We have 30 unique subjects and 6 unique activities, which result in a 180 combinations of the two. Then, for each combination, we calculate the mean of each measurement with the corresponding combination. So, after initializing the result data frame and performing the two for-loops, we get a 180x68 data frame and the file tidyData.txt is created.
 
-Desired Outputted files:
-    mergedData.txt
-
-    tidyData.txt
+Desired Outputted files: mergedData.txt and tidyData.txt
 
